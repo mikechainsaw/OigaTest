@@ -1,0 +1,8 @@
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Models\bin\Debug\netcoreapp3.0\OigaTest.Models.deps.json
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Models\bin\Debug\netcoreapp3.0\OigaTest.Models.dll
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Models\bin\Debug\netcoreapp3.0\OigaTest.Models.pdb
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Models\obj\Debug\netcoreapp3.0\OigaTest.Models.AssemblyInfoInputs.cache
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Models\obj\Debug\netcoreapp3.0\OigaTest.Models.AssemblyInfo.cs
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Models\obj\Debug\netcoreapp3.0\OigaTest.Models.dll
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Models\obj\Debug\netcoreapp3.0\OigaTest.Models.pdb
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Models\obj\Debug\netcoreapp3.0\OigaTest.Models.csprojAssemblyReference.cache

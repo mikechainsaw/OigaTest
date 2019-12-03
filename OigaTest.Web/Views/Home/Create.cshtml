@@ -1,0 +1,74 @@
+﻿@model OigaTest.Models.AppUser
+
+@{
+    ViewData["Title"] = "CreateUser";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    bool EditMode = Model != null && Model.Id!=0;
+    string buttonText = EditMode ? "Edit" : "Create";
+    string saveAction = EditMode ? "EditUser" : "CreateUser";
+    bool changeRole=ViewBag.IsAdmin;
+
+}
+
+@if (EditMode)
+{
+    <h1>Edit User</h1>
+}
+else
+{
+    <h1>Create User</h1>
+}
+
+<h4>AppUser</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="@saveAction">
+            @if (EditMode)
+            {
+                <input asp-for="Id" type="hidden" />
+            }
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Role" class="control-label"></label>
+                @if (changeRole)
+                {
+                    <select asp-for="Role" asp-items="Html.GetEnumSelectList<OigaTest.Models.EUserRole>()" class="form-control">
+                        <option selected="selected" value="">Please select</option>
+                    </select>
+                    <span asp-validation-for="Role" class="text-danger"></span>
+
+                }
+                else
+                {
+                    <input asp-for="Role" class="form-control" disabled />
+                }
+
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="@buttonText" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

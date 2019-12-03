@@ -1,0 +1,16 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string tenantName = @ViewBag.TenantName;
+}
+
+<style>
+    .companylogo {
+        max-width: 800px;
+        max-height: 500px;
+    }
+</style>
+<div class="text-center">
+    <h1 class="display-4">Welcome To @tenantName</h1>
+    <img src="~/images/@(tenantName.ToLower()).png" class="companylogo" />  
+</div>

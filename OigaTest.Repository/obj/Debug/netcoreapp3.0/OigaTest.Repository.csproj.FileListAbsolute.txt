@@ -1,0 +1,13 @@
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\bin\Debug\netcoreapp3.0\OigaTest.Repository.deps.json
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\bin\Debug\netcoreapp3.0\OigaTest.Repository.dll
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\bin\Debug\netcoreapp3.0\OigaTest.Repository.pdb
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\bin\Debug\netcoreapp3.0\OigaTest.Entities.dll
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\bin\Debug\netcoreapp3.0\OigaTest.Models.dll
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\bin\Debug\netcoreapp3.0\OigaTest.Entities.pdb
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\bin\Debug\netcoreapp3.0\OigaTest.Models.pdb
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\obj\Debug\netcoreapp3.0\OigaTest.Repository.csprojAssemblyReference.cache
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\obj\Debug\netcoreapp3.0\OigaTest.Repository.AssemblyInfoInputs.cache
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\obj\Debug\netcoreapp3.0\OigaTest.Repository.AssemblyInfo.cs
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\obj\Debug\netcoreapp3.0\OigaTest.Repository.csproj.CopyComplete
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\obj\Debug\netcoreapp3.0\OigaTest.Repository.dll
+D:\MIKE\Documents\CODE\.net\OiganTest\OigaTest.Repository\obj\Debug\netcoreapp3.0\OigaTest.Repository.pdb

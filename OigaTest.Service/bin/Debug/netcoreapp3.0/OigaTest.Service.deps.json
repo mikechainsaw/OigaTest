@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "OigaTest.Service/1.0.0": {
+        "dependencies": {
+          "OigaTest.Models": "1.0.0"
+        },
+        "runtime": {
+          "OigaTest.Service.dll": {}
+        }
+      },
+      "OigaTest.Models/1.0.0": {
+        "runtime": {
+          "OigaTest.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OigaTest.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OigaTest.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

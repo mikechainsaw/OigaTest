@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OigaTest.Entities\OigaTest.Entities.csproj" />
+    <ProjectReference Include="..\OigaTest.Models\OigaTest.Models.csproj" />
+  </ItemGroup>
+
+</Project>
